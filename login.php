@@ -4,6 +4,9 @@ include "config.php";
 include "private_functions.php";
 include "functions.php";
 
+line1
+line2
+
 if(isset($_SESSION['auth']) && $_SESSION['auth'] == 1) {
 	header('Location: '.$home.'index.php');
 }
